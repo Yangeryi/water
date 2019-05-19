@@ -20,3 +20,31 @@ header .iconfont{
     color: #4ebbfe;
     font-size: 0.4rem;
 }
+.tag a{
+    width: 100%;
+    height: 0.52rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    font-size: 0.2rem;
+    line-height:0.52rem ;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+
+}
+.tag a span{
+    height: 0.52rem;
+    width: 1.33rem;
+    display: inline-block;
+    border-radius: 0.26rem;
+    margin-right: 0.25rem;
+    text-align: center;
+    background-color: rgba(59, 172, 254, 0.1);
+    color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0 rgba(59, 172, 254, 0.43);
+}
+.tag a .hot{
+    color: #fff;
+    background-color: #3bacfe;
+}
