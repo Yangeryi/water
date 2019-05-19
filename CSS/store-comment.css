@@ -48,3 +48,37 @@ header .iconfont{
     color: #fff;
     background-color: #3bacfe;
 }
+footer{
+    height: 0.98rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+    background-color: #f1f9ff;
+    padding: 0.1rem 0.22rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer li{
+    width: 0.7rem;
+    height:100% ;
+    display: inline-block;
+}
+footer li a{
+    width: 0.7rem;
+    height:100% ;
+    font-size: 0.24rem;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.5;
+}
+footer li a.hot{
+    opacity: 1;
+}
+footer li a div{
+    width: 0.45rem;
+    height: 0.45rem;
+    display: inline-block;
+}
