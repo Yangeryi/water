@@ -148,3 +148,34 @@ header .iconfont{
     text-align: center;
     line-height: 0.45rem;
 }
+.permit{
+    height: 0.92rem;
+    padding: 0.3rem 0.22rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.permit h1{
+    font-size: 0.32rem;
+    color: #4f5b64;
+    padding-left: 0.2rem;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+.permit h1::before{
+    content: "";
+    position:absolute;
+    left: 0;
+    top: 0.16rem;
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #34da87;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(52, 218, 135, 0.43);
+    border-radius: 0.03rem;
+}
+.permit  strong{
+    color: #34da87;
+    font-size: 0.32rem;
+    display: inline-block;
+    float: left;
+}
