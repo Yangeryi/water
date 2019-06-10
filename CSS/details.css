@@ -212,10 +212,8 @@ header .iconfont{
 }
 .evaluate-title a .iconfont.hot{
     color: rgba(54,168,254,0.5);
-
 }
 .evaluate{
-    /*height: 1.98rem;*/
     width: 100%;
     padding: 0 0.22rem;
     box-sizing: border-box;
@@ -229,18 +227,17 @@ header .iconfont{
     border: 0.01rem solid #FFFFFF;
     margin-top: 0.2rem;
     flex: none;
-
 }
 .evaluate-words{
     margin-left: 0.2rem;
     flex: 1;
     margin-top:0.64rem ;
-
 }
 .evaluate-words h1{
     height: 0.2rem;
     overflow: hidden;
     margin-bottom: 0.23rem;
+    line-height: 0.2rem;
 }
 .evaluate-words h1 .user{
     font-size: 0.2rem;
@@ -283,9 +280,7 @@ header .iconfont{
     padding: 0.42rem 0.22rem;
     box-sizing: border-box;
     border-bottom:0.01rem solid rgba(216,223,227,0.3) ;
-
 }
-
 .detail h1{
     font-size: 0.32rem;
     color: #35db82;
