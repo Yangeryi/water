@@ -171,6 +171,8 @@ div.search-pic{
     display: inline-block;
     font-size: 0.2rem;
     text-align: center;
+}
+.evaluate li a{
     color: #36a8fe;
 }
 .list li{
