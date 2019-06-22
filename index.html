@@ -8,89 +8,131 @@
     <meta name="format-detection" content="telephone=no, email=no" />
     <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_1194368_zvigutnc71s.css">
+    <link rel="stylesheet" href="./CSS/swiper.min.css">
     <title>首页</title>
+    <script src="./JS/jquery-3.4.1.js"></script>
+    <script src="./JS/swiper.min.js"></script>
 </head>
 <body>
-<header>
-    中北
-</header>
-<div class="search">
-    <span>太原</span>
-    <span class="iconfont icon-xiangxia2"></span>
-    <a href=""></a>
-</div>
-<div class="banner">
-    <img src="./image/img/banner.png" alt="">
-</div>
-<ul class="category">
-    <li>
-        <a href="./list.html">
-            <div><img src="./image/img/l1.png" alt=""></div>
-            <p>水路综合</p>
-        </a>
-    </li>
-    <li>
-        <a href="./list.html">
-            <div><img src="./image/img/l2.png" alt=""></div>
-            <p>水管维修</p>
-        </a>
-    </li>
-    <li><a href="./list.html">
-        <div><img src="./image/img/l3.png" alt=""></div>
-         <p>管道维修</p>
-        </a>
-    </li>
-    <li><a href="./list.html">
-        <div><img src="./image/img/l4.png" alt=""></div>
-         <p>龙头维修</p>
-        </a>
-    </li>
-    <li><a href="./list.html">
-        <div><img src="./image/img/l5.png" alt=""></div>
-         <p>地漏疏通</p>
-        </a>
-    </li>
-    <li><a href="./list.html">
-        <div><img src="./image/img/l6.png" alt=""></div>
-         <p>阀门维修</p>
-        </a>
-    </li>
-    <li><a href="./list.html">
-        <div><img src="./image/img/l7.png" alt=""></div>
-         <p>下水道疏通</p>
-        </a>
-    </li>
-    <li><a href="./list.html">
-        <div><img src="./image/img/l8.png" alt=""></div>
-         <p>其他</p>
-        </a>
-    </li>
-    <li><a href="">
-        <div><img src="" alt=""></div>
-         <p></p></a></li>
+    <header>
+        中北
+    </header>
+    <div class="search">
+        <span>太原</span>
+        <span class="iconfont icon-xiangxia2"></span>
+        <a href=""></a>
+    </div>
+    <div class="banner swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./image/img/banner.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/img/banner.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/img/banner.png" alt="">
+            </div>
 
-</ul>
-<ul class="tail">
-    <li><a href="" class="hot">
-        <div><img src="./image/img/sy.png" alt=""></div>
-        首页
-    </a></li>
-    <li><a href="./store-comment.html">
-        <div><img src="./image/img/store.png" alt=""></div>
-        商城
-    </a></li>
-    <li><a href="">
-        <div><img src="./image/img/rz.png" alt=""></div>
-        入驻
-    </a></li>
-    <li><a href="">
-        <div><img src="./image/img/order.png" alt=""></div>
-        订单
-    </a></li>
-    <li><a href="">
-        <div><img src="./image/img/personal.png" alt=""></div>
-        我的
-    </a></li>
-</ul>
+        </div>
+        //分页器
+        <div class="swiper-pagination"></div>
+        //按钮
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <ul class="category">
+        <li>
+            <a href="./list.html">
+                <div><img src="./image/img/l1.png" alt=""></div>
+                <p>水路综合</p>
+            </a>
+        </li>
+        <li>
+            <a href="./list.html">
+                <div><img src="./image/img/l2.png" alt=""></div>
+                <p>水管维修</p>
+            </a>
+        </li>
+        <li><a href="./list.html">
+            <div><img src="./image/img/l3.png" alt=""></div>
+             <p>管道维修</p>
+            </a>
+        </li>
+        <li><a href="./list.html">
+            <div><img src="./image/img/l4.png" alt=""></div>
+             <p>龙头维修</p>
+            </a>
+        </li>
+        <li><a href="./list.html">
+            <div><img src="./image/img/l5.png" alt=""></div>
+             <p>地漏疏通</p>
+            </a>
+        </li>
+        <li><a href="./list.html">
+            <div><img src="./image/img/l6.png" alt=""></div>
+             <p>阀门维修</p>
+            </a>
+        </li>
+        <li><a href="./list.html">
+            <div><img src="./image/img/l7.png" alt=""></div>
+             <p>下水道疏通</p>
+            </a>
+        </li>
+        <li><a href="./list.html">
+            <div><img src="./image/img/l8.png" alt=""></div>
+             <p>其他</p>
+            </a>
+        </li>
+        <li><a href="">
+            <div><img src="" alt=""></div>
+             <p></p></a></li>
+
+    </ul>
+    <ul class="tail">
+        <li><a href="" class="hot">
+            <div><img src="./image/img/sy.png" alt=""></div>
+            首页
+        </a></li>
+        <li><a href="./store-comment.html">
+            <div><img src="./image/img/store.png" alt=""></div>
+            商城
+        </a></li>
+        <li><a href="">
+            <div><img src="./image/img/rz.png" alt=""></div>
+            入驻
+        </a></li>
+        <li><a href="">
+            <div><img src="./image/img/order.png" alt=""></div>
+            订单
+        </a></li>
+        <li><a href="">
+            <div><img src="./image/img/personal.png" alt=""></div>
+            我的
+        </a></li>
+    </ul>
+    <script src="./JS/jquery-3.4.1.js"></script>
+    <script src="./JS/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper ('.swiper-container', {
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // 如果需要滚动条
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        })
+    </script>
 </body>
 </html>
